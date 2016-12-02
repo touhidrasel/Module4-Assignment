@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app='MenuApp'>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <title>Module 4 assignment</title>
+  </head>
+  <body>
+    <!-- Page Views -->
+    <ui-view></ui-view>
+
+    <!-- angular Libraries -->
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-ui-router.min.js"></script>
+
+    <!-- Modules -->
+    <script src="js/menuapp.module.js"></script>
+    <script src="js/data.module.js"></script>
+
+    <!-- component and controller -->
+    <script src="js/main-categories.controller.js"></script>
+    <script src="js/item-categories.controller.js"></script>
+    <script src="js/categories.component.js"></script>
+    <script src="js/items.component.js"></script>
+    <script src="js/menudata.service.js"></script>
+
+    <!-- Route JS file -->
+    <script src="js/routes.js"></script>
+
+  </body>
+</html>
